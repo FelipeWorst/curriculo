@@ -1,0 +1,111 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f5f5;
+}
+
+.curriculo {
+  display: flex;
+  max-width: 800px;
+  margin: 20px auto;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar {
+  background-color: #375ca0;
+  color: white;
+  width: 40%;
+  padding: 20px;
+  text-align: center;
+}
+
+.sidebar img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 15px;
+  border: 4px solid white;
+}
+
+.sidebar h1 {
+  font-size: 22px;
+  margin-bottom: 5px;
+}
+
+.sidebar .titulo {
+  font-size: 14px;
+  font-weight: bold;
+  color: #ddd;
+  margin-bottom: 15px;
+}
+
+.sidebar p {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.sidebar h2 {
+  font-size: 16px;
+  margin: 20px 0 10px;
+  border-bottom: 2px solid white;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.secao {
+  text-align: left;
+  margin-top: 15px;
+}
+
+/* área contatos */
+#whats, #email {
+    display: flex;
+    align-items: center;
+    padding-left: 12%;
+    padding-top: 4%;
+}
+
+#foto{
+    width: 5%;
+    height: 5%;
+    padding-right: 3%;
+}
+
+#whats, #email p {
+    font-weight: 700;
+    font-size: 1.2vw;
+    margin-top: 0em;
+    margin-bottom: 0em;
+}
+
+
+/* ===== CONTEÚDO PRINCIPAL ===== */
+.conteudo {
+  width: 70%;
+  padding: 20px 30px;
+}
+
+.conteudo h2 {
+  font-size: 18px;
+  margin-bottom: 5px;
+  color: #243d6d;
+  border-bottom: 2px solid #243d6d;
+  display: inline-block;
+  padding-bottom: 3px;
+}
+
+.conteudo p {
+  font-size: 14px;
+  margin-bottom: 8px;
+}
+
+section {
+  margin-bottom: 20px;
+}
